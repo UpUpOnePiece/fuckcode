@@ -7,4 +7,10 @@ package me.danwi.recyclerviewadvance.entity;
  * Time: 下午11:04
  */
 public class Novel {
+    public String novelName;
+    public String novelCover;
+
+    public Novel(String novelName) {
+        this.novelName = novelName;
+    }
 }
